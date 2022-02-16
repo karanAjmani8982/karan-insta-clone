@@ -11,7 +11,7 @@ const app = express();
 mongoose
   .connect(
     "mongodb+srv://raj:" +
-      process.env.MONGO_ATLAS_PW +
+      "Cy1p2DMHpTKRBLxC" +
       "@cluster0.vv3sv.mongodb.net/mean-course?retryWrites=true&w=majority"
   )
   .then(() => {
